@@ -145,7 +145,7 @@ header{
 .banner-float-1{
     position: absolute;
     left:-70px;
-    bottom: 80px;
+    bottom: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,8 +170,8 @@ header{
 }
 .banner-float-2{
     position: absolute;
-    left:270px;
-    bottom: 490px; 
+    left:150px;
+    bottom: 300px; 
 }
 .banner-float-text-2{
     display: flex;
@@ -213,9 +213,9 @@ header{
 .habits-card{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
+    justify-items: left;
     align-content: center;
-    gap:120px;
+    gap:100px;
 }
 .habits-card-item{
     width:235px;
@@ -261,6 +261,9 @@ header{
     }
     .banner-text{
         width:100%;
+    }
+    .banner-text h1{
+        font-size: 2.2rem;
     }
     .banner-img{
         width:100%;
