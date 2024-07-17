@@ -188,6 +188,58 @@ header{
 }
 /* ----------header section ends here -------------------------*/
 
+/* ----------main section start here-------------------------- */
+/* ----------havits section start here-------------------------- */
+.habits{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+    padding: 0px 80px;
+}
+.habits-text h1{
+    font-size: 3rem;
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 15px;
+}
+.habits-text p{
+    font-size: 0.9rem;
+    color: var(--paragraph-color);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.habits-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-content: center;
+    gap:120px;
+}
+.habits-card-item{
+    width:235px;
+    height:275px;
+}
+.habits-card-item img{
+    width:100%;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.habits-card-item h5{
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+.habits-card-item p{
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--paragraph-color);
+}
+/* ----------havits section ends here-------------------------- */
+/* ----------main section ends here-------------------------- */
+
 
 
 /* ----------Mobile responsive start here -------------------------*/
@@ -220,6 +272,16 @@ header{
     .banner-float-2{
         left:250px;
         bottom: 520px; 
+    }
+    .habits{
+        margin-top: 30px;
+        padding:0 20px;
+    }
+    .habits-text h1{
+        font-size: 2rem;
+    }
+    .habits-card{
+        grid-template-columns: 1fr;
     }
 }
 /* ----------Mobile responsive ends here -------------------------*/
