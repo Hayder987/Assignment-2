@@ -269,15 +269,22 @@ header{
     color: var(--paragraph-color);
     margin-bottom: 35px;
 }
+.run-content{
+    width:365px;
+    height:312px;
+    overflow: hidden;
+    border-radius: 20px;
+}
 .run-img{
     width:365px;
     height:312px;
     background: url("../images/run.jpg");
-    /* background-size: cover; */
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
     border-radius: 20px;
+    transform: scale(2.3) translate(-65px ,30px);
+    
 }
 .run-btn{
     border: none;
@@ -618,6 +625,9 @@ hr{
         margin: 150px 20px 40px 20px;
         width: calc(100% - 50px);
         gap:60px;
+    }
+    .run-img{
+        transform: scale(1) translate(0,0);
     }
     .run-text h1, 
     .bmi-text h1,
